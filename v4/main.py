@@ -308,4 +308,6 @@ class AdvancedTodo:
 
 
 if __name__ == "__main__":
-    tk.mainloop(AdvancedTodo(tk.Tk()))
+    root = tk.Tk()
+    app = AdvancedTodo(root)
+    root.mainloop()
